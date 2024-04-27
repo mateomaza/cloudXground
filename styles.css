@@ -1,0 +1,41 @@
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+header {
+    background-color: #f8f8f8;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+}
+
+.uptime-list {
+    width: 40%;
+}
+
+.uptime-list h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
